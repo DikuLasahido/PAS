@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailTeams">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:text="judul movie"
+            android:textStyle="bold"
+            android:id="@+id/tvjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/ivposter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/txtdeskripsi"
+            android:text="Deskripsi"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            />
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnbookmark"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Bookmark"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
